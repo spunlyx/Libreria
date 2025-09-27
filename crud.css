@@ -1,0 +1,137 @@
+
+*{
+  font-family: cursive;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.main-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 254, 254);
+    color: white;
+}
+
+.logo-container{
+   width: 160px;
+}
+
+.logo{
+    max-width: 100%;
+    height: auto;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+li a{
+    text-decoration: none;
+    color: rgb(15, 15, 19);
+}
+
+hr {
+  flex-basis: 100%;
+  width: 100%;
+  height: 1px;
+  background-color: blue;
+}
+
+main {
+  padding: 20px;
+  background-color: white;
+  max-width: 800px;
+  margin: 20px auto;
+  
+  
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+
+.crear {
+  background-color: green;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.crear:hover {
+  background-color: darkgreen;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border-bottom: 1px solid #999;
+  padding: 8px;
+  text-align: left;
+}
+
+
+th {
+  background-color: #ddd;
+}
+
+
+.editar {
+  background-color: orange;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.eliminar {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.site-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fffefe; 
+  color: #080808;
+  padding: 20px 40px;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.footer-right img {
+  width: 24px;
+  height: 24px;
+  margin-left: 15px;
+  vertical-align: middle;
+}
+
+
+.footer-left {
+  flex: 1;
+}
+
+.footer-right a {
+  margin-left: 15px;
+}

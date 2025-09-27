@@ -1,0 +1,126 @@
+*{
+    font-family: cursive;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.main-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    color: white;
+}
+
+.logo-container{
+   width: 160px;
+}
+
+.logo{
+    max-width: 100%;
+    height: auto;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+li a{
+    text-decoration: none;
+    color: rgb(15, 15, 19);
+}
+
+hr {
+  flex-basis: 100%;
+  width: 100%;
+  height: 1px;
+  background-color: blue;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+
+form {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+
+legend{
+    color: rgb(15, 15, 19);
+    font-size: 32px;
+}
+
+
+.form-container{
+    background-color: aliceblue;
+}
+
+form label,
+form input {
+  display: block;         
+  margin-bottom: 5px;    
+}
+
+button {
+  display: block;           
+  margin: 20px auto;        
+  padding: 10px 20px;       
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-registrar {
+  background-color: rgb(28, 199, 199);
+  color: #faf8f8;
+  font-weight: bold;
+}
+
+.btn-registrar:hover {
+  background-color: rgb(71, 200, 160);
+}
+
+.site-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fffefe; 
+  color: #080808;
+  padding: 20px 40px;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.footer-right img {
+  width: 24px;
+  height: 24px;
+  margin-left: 15px;
+  vertical-align: middle;
+}
+
+
+.footer-left {
+  flex: 1;
+}
+
+.footer-right a {
+  margin-left: 15px;
+}
